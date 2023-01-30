@@ -1,0 +1,225 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background: black;
+    background: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.section{
+    background: black;
+}
+
+.footer{
+    background: black;
+
+}
+
+#body{
+    color: white
+}
+
+.contenedor .menu{
+    background: #2d4055;
+    background: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+}
+
+.contenedor .logo{
+    background: #8a5455;
+    flex: 1 1 auto;
+}
+
+.contenedor .nav{
+    background: #8a5455;
+    flex: 5 1 auto;
+}
+
+.contenedor .social{
+    background: #ea5455;
+    flex: 1 1 auto;
+}
+
+.contenedor .principal{
+    background: #f07b3f;
+}
+
+.contenedor h1{
+    background: #ffd460;
+}
+
+.section{
+    display: flex;
+}
+
+.section .articulos{
+    background: #4e4e6a;
+    flex: 2 1 auto;
+    /*  */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.section .articulo{
+    background: #1f6cb0;
+    flex: 1 1 40%;
+}
+
+.section .navegacion{
+    background: #70a3C4;
+    flex: 1 1 100%;
+}
+
+.section .derecha{
+    background: #f73f52;
+    flex: 1 1 auto;
+}
+
+.section .publicidad{
+    background: #ffea85;
+}
+
+.footer .pie{
+    background: #ebaf2e;
+    width: 300px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and(max-width:800px){
+    .section{
+        flex-direction: column;
+    }
+    .contenedor .menu{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .contenedor .logo{
+        width: 100%;
+    }
+    .contenedor .nav{
+        width: 100%;
+    }
+    .contenedor .social{
+        width: 100%;
+    }
+    .aside{
+        display: flex;
+        justify-content: center;
+    }
+    .aside .publicidad{
+        width: 50%;
+    }
+    
+}
+
+
+/* Titulos y letra */
+
+h1{
+    font-size: 3.5em;
+}
+
+h2{
+    font-size: 2.7em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+p{
+    font-size: 1.25em;
+    text-align: justify;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    font-size: 1.25em
+}
+
+/* Termino de estilos de letra */
+
+a{
+    text-decoration: none;
+}
+
+
+button{
+    font-size: 1.5 em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(rgb(0, 0, 0.3));
+    box-shadow: 2px 2px 10px rgba(rgb(0, 0, 0.5));
+    color: white;
+    background-color: tomato;
+}
+
+button:hover{
+    background-color: rgba(154, 154, 154);
+}
+
+.contenedor3{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* cabecera */
+
+#he{
+    background-color: rgba(245, 245, 245);
+}
+
+#he.logo{
+    margin: 0px;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: maroon;
+    font-size: 3.6em;
+}
+
+#he.contenedor{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#he nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#he a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#he a :hover{
+    color: blue;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 02</title>
+    <link rel="stylesheet" href="CSS/estilos01.css">
+    <link rel="stylesheet" href="CSS/estilos00.css">
+    <script src="https://kit.fontawesome.com/083a8d58a9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav id="cent">
+        <h1 id="titulo"> Capitulo 2. HTML</h1>
+        <a id="salid" href="index.html"> <i class="fa-solid fa-right-to-bracket"></i> Regresar</a>
+        </nav>    
+    </header>
+
+    <!-- Comienzo de Actividad -->
+    
+    <div id="">
+        <header>
+            <nav id="ce">
+            <h1 id="tit"> Contenido </h1>
+            </nav>    
+        </header>
+        <header> 
+            <h1> Este es el título </h1>
+            <time datetime="2016-10-12" pubdate>publicado 12-10-2016</time>
+        </header> 
+        <nav> 
+            <a href="level02.html">Principal</a>|
+            <a href="fotos.html">Fotos</a> |
+            <a href="libros.html">Libros</a> |
+            <a href="contacto.html">Contacto</a>
+                 
+        </nav>
+        <main>
+            <section>
+                <p>Articulo 1</p>
+                <p>Articulo 2</p>
+                <p>Articulo 3</p>
+                <p>Articulo 4</p>
+                <p><a href="#titulo">Volver</a></p>
+            </section>
+        </main>
+        <article> 
+            <p>La muerte es una <em>quimera</em>: porque mientras yo existo, no 
+           existe la <i>muerte</i>;<br>y cuando existe la <i>muerte</i>, 
+           <strong>ya no existo yo</strong>.<br>Epicuro de Samos</p> 
+        </article> 
+        <section id="noticiaslocales"> 
+            Artículos cortos 
+        </section> 
+        <aside> 
+            <p>Cita del artículo uno</p> 
+            <p>Cita del artículo dos</p> 
+        </aside> 
+        <footer> 
+            <address>Toronto, Canada</address> 
+            <small>&copy; 2016 <a href="http://www.jdgauchat.com" 
+           target="_blank">J.D Gauchat</a></small> 
+        </footer> 
+    </div>
+<!-- Dos -->
+    <div id="">
+        <header>
+            <nav id="ce">
+            <h1 id="tit"> Formularios </h1>
+            </nav>    
+        </header>
+        <section> 
+            <form name="formulario" method="get" action="procesar.php"> 
+                <p>  
+                    <label>Nombre: <input type="text" name="nombre" 
+                        maxlength="15"></label>
+                </p> 
+                <p><label>Edad: <input type="number" name="edad"></label></p> 
+                <p><label><input type="checkbox" name="edad15" value="15" checked> 15 
+                    Años</label></p> 
+                <p><label><input type="checkbox" name="edad30" value="30" checked> 30 
+                    Años</label></p> 
+                <p><label><input type="checkbox" name="edad45" value="45"> 45 
+                    Años</label></p> 
+                <p><label><input type="checkbox" name="edad60" value="60"> 60 
+                    Años</label></p>
+                <p><label>Correo: <input type="email" name="correo"></label></p> 
+                <p><label>Sitio Web: <input type="url" name="sitioweb"></label></p> 
+                <p><input type="image" src="botonenviar.png" width="100"></p>
+                <p><label>Texto: <textarea name="texto" cols="50" 
+                    rows="6"></textarea></label></p> 
+                    <select name="libro" id="listado"> 
+                        <option value="1">IT</option> 
+                        <option value="2">Carrie</option> 
+                        <option value="3">El Resplandor</option> 
+                        <option value="4">Misery</option> 
+                    </select>
+                    <datalist id="datos"> 
+                        <option value="123123123" label="Teléfono 1"> 
+                        <option value="456456456" label="Teléfono 2"> 
+                        </datalist> 
+                        <p><label>Teléfono: <input type="tel" name="telefono" 
+                       list="datos"></label></p>  
+                       <p><label>Correo: <input type="email" name="correo" 
+                        multiple></label></p> 
+                        <p><label>Código Postal: <input pattern="[0-9]{5}" name="cp" 
+                            title="Inserte su código postal"></label></p>
+                            <p><label>Buscar: <input type="search" name="buscar" 
+                                autocomplete="off"></label></p> 
+                        <p> 
+                            <input type="submit" value="Enviar"> 
+                            <input type="submit" value="Grabar" formnovalidate> 
+                        </p> 
+            
+            </form> 
+            </section> <br>
+            
+    </div>
+
+    <!-- Termino de Actividad -->
+
+    <table id="pie">
+        <tr>
+            <th>
+                <footer>
+                    &copy; Velazquez Ezveydy 2023
+                </footer>
+            </th>
+        </tr>
+    </table>
+
+</body>
+</html>

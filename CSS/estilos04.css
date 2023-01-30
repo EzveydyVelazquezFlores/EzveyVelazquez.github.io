@@ -1,0 +1,375 @@
+   section { 
+    background-color: #CCCCCC; 
+    overflow: auto; 
+   } 
+   section img { 
+    float: left; 
+    margin: 0px 10px; 
+   } 
+
+   .clearfloat { 
+    clear: both; 
+   } 
+
+   #cajapadre { 
+    width: 500px; 
+    border: 1px solid; 
+   } 
+   #caja-1 { 
+    float: left; 
+    width: 140px; 
+    height: 50px; 
+    margin: 5px; 
+    background-color: #AAAAAA; 
+   } 
+   #caja-2 { 
+    float: left; 
+    width: 140px; 
+    height: 50px; 
+    margin: 5px; 
+    background-color: #CCCCCC; 
+   } 
+   #caja-3 { 
+    float: right; 
+    width: 140px; 
+    height: 50px; 
+    margin: 5px; 
+    background-color: #AAAAAA; 
+   } 
+   #caja-4 { 
+    float: right; 
+    width: 140px; 
+    height: 50px; 
+    margin: 5px; 
+    background-color: #CCCCCC; 
+   } 
+   .restaurar { 
+    clear: both; 
+   } 
+
+   #cajapadre2 { 
+    position: relative;
+
+    width: 500px; 
+    border: 1px solid; 
+    z-index: -2; 
+   } 
+   #caja-12 {
+    
+    position: absolute; 
+ top: 25px; 
+
+    float: left; 
+    width: 140px; 
+    height: 50px; 
+    margin: 5px; 
+    background-color: #AAAAAA; 
+    z-index: -1; 
+   } 
+   #caja-22 { 
+    float: left; 
+    width: 140px; 
+    height: 50px; 
+    margin: 5px; 
+    background-color: #CCCCCC; 
+   } 
+   #caja-32 { 
+    float: right; 
+    width: 140px; 
+    height: 50px; 
+    margin: 5px; 
+    background-color: #AAAAAA; 
+   } 
+   #caja-42 { 
+    float: right; 
+    width: 140px; 
+    height: 50px; 
+    margin: 5px; 
+    background-color: #CCCCCC; 
+   } 
+   .restaurar { 
+    clear: both; 
+   } 
+   
+   #cajapadre3 { 
+    position: relative; 
+    width: 365px; 
+    height: 274px; 
+    overflow: hidden; 
+   }
+
+   #contenedor3 { 
+    position: absolute; 
+    top: 0px; 
+    width: 365px; 
+    height: 324px; 
+    transition: top 0.5s ease-in-out 0s; 
+   } 
+   #contenedorsuperior { 
+    width: 365px; 
+    height: 274px; 
+   } 
+   #contenedorinferior { 
+    width: 365px; 
+    height: 35px; 
+    padding-top: 15px; 
+    background-color: rgba(200, 200, 200, 0.8); 
+    text-align: center; 
+   } 
+   #contenedor3:hover { 
+    top: -50px; 
+   } 
+   #articulonoticias { 
+    width: 580px; 
+    padding: 10px; 
+    border: 1px solid; 
+    column-count: 2; 
+    column-gap: 20px; 
+    column-rule: 1px solid #000000; 
+   } 
+
+#lol{
+        margin: 0px; 
+        padding: 0px; 
+
+}
+
+#cabeceralogo { 
+    width: 96%; 
+    height: 150px; 
+    padding: 0% 2%; 
+    background-color: #5400ca; 
+   } 
+   #cabeceralogo > div { 
+    width: 960px; 
+    margin: 0px auto; 
+    padding-top: 45px; 
+   } 
+   #cabeceralogo h1 { 
+    font: bold 54px Arial, sans-serif; 
+    color: #FFFFFF; 
+   }
+
+   #menuprincipal { 
+    width: 96%; 
+    height: 50px; 
+    padding: 0% 2%; 
+    background-color: #9FC8D9; 
+    border-top: 1px solid #094660; 
+    border-bottom: 1px solid #094660; 
+   } 
+   #menuprincipal > div { 
+    width: 960px; 
+    margin: 0px auto; 
+   }
+   
+   #menuprincipal li { 
+    display: inline-block; 
+    height: 35px; 
+    padding: 15px 10px 0px 10px; 
+    margin-right: 5px; 
+   } 
+   #menuprincipal li:hover { 
+    background-color: #6f75c6; 
+   } 
+   #menuprincipal a { 
+    font: bold 18px Arial, sans-serif; 
+    color: #333333; 
+    text-decoration: none; 
+   } 
+
+#main1 { 
+    width: 96%; 
+    padding: 2%; 
+    background-image: url("fondo.png"); 
+   } 
+   #main1 > div { 
+    width: 960px; 
+    margin: 0px auto; 
+   } 
+
+   #articulosprincipales { 
+    float: left; 
+    width: 620px;
+    padding-top: 30px; 
+    background-color: #FFFFFF; 
+    border-radius: 10px; 
+   } 
+   #infoadicional { 
+    float: right; 
+    width: 280px; 
+    padding: 20px; 
+    background-color: #E7F1F5; 
+    border-radius: 10px; 
+   } 
+   #infoadicional h1 { 
+    font: bold 18px Arial, sans-serif; 
+    color: #333333; 
+    margin-bottom: 15px; 
+   } 
+   .recuperar { 
+    clear: both; 
+   } 
+#art { 
+    position: relative; 
+    padding: 0px 40px 20px 40px; 
+   } 
+   #art time { 
+    display: block; 
+    position: absolute; 
+    top: -5px; 
+    left: -70px; 
+    width: 80px; 
+    padding: 15px 5px; 
+    background-color: #094660; 
+    box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.7); 
+    border-radius: 5px; 
+   } 
+   .numerodia { 
+    font: bold 36px Verdana, sans-serif; 
+    color: #FFFFFF; 
+    text-align: center; 
+   } 
+   .nombredia { 
+    font: 12px Verdana, sans-serif; 
+    color: #FFFFFF; 
+    text-align: center; 
+   }
+
+   #art h1 { 
+    margin-bottom: 5px; 
+    font: bold 30px Georgia, sans-serif; 
+   } 
+   #art p { 
+    font: 18px Georgia, sans-serif; 
+   } 
+   figure { 
+    margin: 10px 0px; 
+   } 
+   figure img { 
+    padding: 5px; 
+    border: 1px solid; 
+   }
+   
+   #pielogo { 
+    width: 96%; 
+    padding: 2%; 
+    background-color: #420fa0; 
+   } 
+   #pielogo > div { 
+
+    display: flex; 
+ flex: 1; 
+ max-width: 960px; 
+    width: 960px; 
+    margin: 0px auto; 
+    background-color: #af9fd9; 
+    border-radius: 10px; 
+   } 
+   .seccionpie { 
+    float: left; 
+    width: 27.33%; 
+    padding: 3%; 
+   } 
+
+   .seccionpie h1 { 
+    font: bold 20px Arial, sans-serif; 
+   } 
+   .seccionpie p { 
+    margin-top: 5px; 
+   } 
+   .seccionpie a { 
+    font: bold 16px Arial, sans-serif; 
+    color: #666666; 
+    text-decoration: none; 
+   } 
+
+   #listamenu > li { 
+    position: relative; 
+    display: inline-block; 
+    height: 35px; 
+    padding: 15px 10px 0px 10px; 
+    margin-right: 5px; 
+   } 
+   #listamenu li > ul { 
+    display: none; 
+    position: absolute; 
+    top: 50px; 
+    left: 0px; 
+    background-color: #9FC8D9; 
+    box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.7); 
+    border-radius: 0px 0px 5px 5px; 
+    list-style: none; 
+    z-index: 1000; 
+   } 
+   #listamenu li > ul > li { 
+    width: 120px; 
+    height: 35px; 
+    padding-top: 15px; 
+    padding-left: 10px; 
+   } 
+   #listamenu li:hover ul { 
+    display: block; 
+   } 
+   #listamenu a { 
+    font: bold 18px Arial, sans-serif; 
+    color: #333333; 
+    text-decoration: none; 
+   } 
+   #menuprincipal li:hover { 
+    background-color: #6FACC6; 
+   } 
+
+
+   #cajapadre3 { 
+    display: flex;
+    width: 600px; 
+    flex-direction: row-reverse; 
+} 
+#cajapadre3 > div { 
+ height: 145px; 
+ margin: 5px; 
+ background-color: #CCCCCC; 
+ border: 1px solid; 
+ justify-content: flex-end; 
+ height: 200px;
+ align-items: flex-start;
+} 
+#caja-13 { 
+    max-width: 50px;
+ flex: 1 1 200px; 
+} 
+#caja-23 { 
+    width: 100px;
+ flex: 1 5 100px; ; 
+} 
+#caja-33 { 
+    width: 100px;
+ flex: 1 5 100px; ; 
+} 
+#caja-43 { 
+    width: 100px;
+ flex: 1 5 100px; ; 
+}  
+
+#mori{ 
+    margin: 0px; 
+    padding: 0px; 
+   } 
+   #cabeceralogo4 { 
+    display: flex; 
+    justify-content: center; 
+    width: 96%; 
+    height: 150px; 
+    padding: 0% 2%; 
+    background-color: #0F76A0; 
+   } 
+   #cabeceralogo4 > div { 
+    flex: 1; 
+    max-width: 960px; 
+    padding-top: 45px; 
+   } 
+   #cabeceralogo4 h1 { 
+    font: bold 54px Arial, sans-serif; 
+    color: #FFFFFF; 
+   }

@@ -1,0 +1,20 @@
+.cod{
+    text-align: left;
+    font-size: 1.2em;
+
+}
+
+/* CSS de libro */
+#uno{ 
+    width: 100%; 
+    margin: 0px; 
+    background-color: #FF0000; 
+   }
+
+#dos{
+    background-color: aliceblue;
+}
+
+#tres{
+    text-align: center;
+}

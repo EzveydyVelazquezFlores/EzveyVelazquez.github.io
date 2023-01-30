@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 2.5%;
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 2px;
+    color: rgb(59, 33, 0);
+}
+
+#tit{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 1%;
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    color: rgb(59, 33, 0);
+
+}
+
+#ce{
+    background-color: rgb(255, 243, 113);
+    padding: 1.5%;
+}
+
+/* #tabla{
+    display: block;
+    float: center;
+    margin: 1%;
+    padding: auto;
+} */
+
+#cent{
+    background-color: bisque;
+    padding: 1.5%;
+}
+
+#tabla a{
+    text-decoration: none;
+    display: block;
+    margin: 4% 4% 5% 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 1.2em;
+}
+
+#tabla a:hover{
+    color: blueviolet;
+}
+
+#tabla img{
+    padding: 1.5%;
+    margin: auto;
+    display: block;
+}
+
+#pie{
+    background-color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2%;
+    padding-right: auto;
+    padding-left: 90%;
+}
+
+#tablit{
+    padding: 13% 13% 13% 13%;
+    display: flex;
+    flex-direction: row;
+}
+
+#salid{
+    color: rgb(59, 33, 0);
+    font-size: 1.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    text-align: left;
+}
+
+
+
